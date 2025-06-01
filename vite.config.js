@@ -4,7 +4,7 @@ import vercel from 'vite-plugin-vercel'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/shoppingreact",
+  base: "/",
   server: {
     port: process.env.PORT,
   },
