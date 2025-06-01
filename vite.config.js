@@ -6,7 +6,7 @@ import vercel from 'vite-plugin-vercel'
 export default defineConfig({
   base: "/",
   server: {
-    port: process.env.PORT,
+    port: 3000,
   },
   plugins: [react(), vercel()],
 })
